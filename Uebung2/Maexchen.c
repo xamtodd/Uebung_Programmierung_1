@@ -14,9 +14,9 @@ int main(){
         
         if(wert1 <= wert2){
             b = false;
+        }else{
+            printf("Der erste Wert muss kleiner sein!\n");
         }
-        
-        printf("Der erste Wert muss kleiner sein!\n");
     }
     
     if(wert1 == wert2){
