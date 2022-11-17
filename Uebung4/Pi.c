@@ -14,7 +14,7 @@ int main() {
     printf("Pi ist ungefaehr: %.100lf\n", Pi);
     
     
-    //Wallis'schen Produkt
+    //Wallis'sches Produkt
     Pi = 1;
     for(int i = 1; i <= 1000000; i++){
         Pi *= (1 + (1 / ((4 * pow(i, 2)) - 1)));
