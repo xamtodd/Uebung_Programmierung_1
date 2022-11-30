@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int ggT(int a, int b);
-int kgV(int a, int b);
+int ggT(int, int);
+int kgV(int, int);
 
 int main(){
     printf("ggT(12, 10) = %d\n", ggT(12, 10));
