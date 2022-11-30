@@ -4,7 +4,7 @@
 float holeWert(char);
 float berechneSpannung(float, float);
 float berechneStromstaeke(float, float);
-float berechneWiederstand(float, float);
+float berechneWiderstand(float, float);
 void zeigeErgebnis(char, float);
 
 int main () {
@@ -12,7 +12,7 @@ int main () {
     char modus = 'e';
     printf("Welchen Wert wollen Sie berechnen?\n");
     printf("U -> Spannung\n");
-    printf("R -> Wiederstand\n");
+    printf("R -> Widerstand\n");
     printf("I -> Stromstaerke\n");
     printf("Ihre Eingabe:");
     scanf("%c", &modus);
@@ -32,7 +32,7 @@ int main () {
             //Wiederstand
             i = holeWert('I');
             u = holeWert('U');
-            r = berechneWiederstand(u, i);
+            r = berechneWiderstand(u, i);
             zeigeErgebnis('R', r);
             break;
         case 'i':
@@ -58,7 +58,7 @@ float holeWert (char c) {
 float berechneSpannung(float r, float i) {
     return r * i; // Spannung U = R * I
 }
-float berechneWiederstand(float u, float i) {
+float berechneWiderstand(float u, float i) {
     return u / i; // Wiederstand R = U / I
 }
 float berechneStromstaeke(float u, float r) {
