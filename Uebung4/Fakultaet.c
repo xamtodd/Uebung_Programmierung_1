@@ -3,7 +3,7 @@
 
 int main(){
     int n;
-    int fakultaet;
+    int fakultaet = 1;
     
     while(true){
         printf("Geben Sie eine Zahl ein: ");
