@@ -6,3 +6,8 @@
 - Uebung 4: 17.11.2022
 - Uebung 5: 23.11.2022
 - Uebung 6: 30.11.2022
+- Uebung 7: 09.12.2022
+
+# Vorlesungsaufgaben
+
+- TicTacToe: 07.12.2022
