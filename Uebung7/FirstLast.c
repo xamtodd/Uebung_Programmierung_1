@@ -16,7 +16,7 @@ int main(){
 
 bool firstLast8 (int arr[], int n){
     if(n > 0){
-        return (arr[0] == 8 && arr[n - 1] != 8) || (arr[0] != 8 && arr[n - 1] == 8);
+        return (arr[0] == 8 ^ arr[n - 1] == 8);
     }else{
         return false;
     }
