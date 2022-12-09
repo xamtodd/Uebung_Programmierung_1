@@ -6,7 +6,6 @@ void ausgeben(int arr[], int);
 int main(){
     int arr[] = {1, 5, 0, 10, -2, 5, 8};
     ausgeben(arr, sizeof(arr) / sizeof(int));
-    printf("\n");
     reverse(arr, sizeof(arr) / sizeof(int));
     ausgeben(arr, sizeof(arr) / sizeof(int));
     
@@ -27,4 +26,5 @@ void ausgeben(int arr[], int n){
     for(int i = 0; i < n; i++){
         printf("%d\n", arr[i]);
     }
+    printf("\n");
 }
