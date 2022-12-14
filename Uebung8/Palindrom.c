@@ -30,6 +30,7 @@ bool palindrom(char str[]){
         reverseString[stellen - 1 - i] = str[i];
     }
     
+    //Auf Gleichheit pruefen
     for(int i = 0; i < stellen; i++){
         if(str[i] != reverseString[i]){
             return false;
