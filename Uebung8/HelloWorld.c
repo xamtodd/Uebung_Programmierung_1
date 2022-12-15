@@ -4,12 +4,11 @@
 int main(){
     char str[50];
     printf("Wie lautet Ihr Name? ");
-    scanf("%s", str);
+    fgets(str, 50, stdin);
     printf("Hallo ");
     for(int i = 0; i < strlen(str); i++){
         printf("%c", str[i]);
     }
-    printf("!\n");
     
     return 0;
 }
