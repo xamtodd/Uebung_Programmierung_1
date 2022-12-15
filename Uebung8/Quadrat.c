@@ -4,8 +4,9 @@
 int quad(char art[], int width);
 
 int main(){
-    char art[1000];
-    quad(art, 5);
+    int width = 5;
+    char art[width * (width + 1)];
+    quad(art, width);
     printf("%s", art);
     
     return 0;
@@ -16,7 +17,6 @@ int quad(char art[], int width){
     for(int i = 0; i < width; i++){
         for(int j = 0; j < width; j++){
             art[index++] = 'x';
-            art[index++] = ' ';
         }
         art[index++] = '\n';
     }
