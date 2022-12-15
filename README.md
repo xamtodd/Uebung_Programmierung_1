@@ -7,6 +7,7 @@
 - Uebung 5: 23.11.2022
 - Uebung 6: 30.11.2022
 - Uebung 7: 09.12.2022
+- Uebung 8: 15.12.2022
 
 # Vorlesungsaufgaben
 
