@@ -17,22 +17,16 @@ int main(){
     return 0;
 }
 
+
 bool palindrom(char str[]){
-    int stellen = strlen(str);
+    int laenge = strlen(str);
     
-    if(stellen <= 1){
+    if(laenge <= 1){
         return false;
     }
-
-    //Neuen String erstellen und undrehen
-    char reverseString[stellen];
-    for(int i = 0; i < stellen; i++){
-        reverseString[stellen - 1 - i] = str[i];
-    }
     
-    //Auf Gleichheit pruefen
-    for(int i = 0; i < stellen; i++){
-        if(str[i] != reverseString[i]){
+    for(int i = 0; i < laenge / 2; i++){
+        if(str[i] != str[laenge - i - 1]){
             return false;
         }
     }
