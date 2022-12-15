@@ -16,7 +16,7 @@ void dreieck(int anz_zeilen){
     
     char array[gesZeichen];
     int index = 0;
-    for(int i = 0; i < anz_zeilen + 1; i++){
+    for(int i = 1; i < anz_zeilen + 1; i++){
         for(int j = 0; j < i; j++){
             array[index] = 'x';
             index++;
@@ -24,5 +24,6 @@ void dreieck(int anz_zeilen){
         array[index] = '\n';
         index++;
     }
+    array[index] = '\0';
     printf("%s", array);
 }
