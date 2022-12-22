@@ -1,17 +1,21 @@
 #include<stdio.h>
 #include<string.h>
 
-void reverse(char wort[]);
+void ausgeben(char satz[]);
 
 int main(){
-    char wort[] = "Wort";
-    reverse(wort);
+    char satz[] = "Hallo ich bin Max!";
+    ausgeben(satz);
     
     return 0;
 }
 
-void reverse(char wort[]){
-    for(int i = strlen(wort) - 1; i >= 0; i--){
-        printf("%c", wort[i]);
+void ausgeben(char satz[]){
+    for(int i = 0; i < strlen(satz); i++){
+        if(satz[i] == ' '){
+            printf("\n");
+        }else{
+            printf("%c", satz[i]);
+        }
     }
 }
