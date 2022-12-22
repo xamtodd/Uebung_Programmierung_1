@@ -12,3 +12,4 @@
 # Vorlesungsaufgaben
 
 - TicTacToe: 07.12.2022
+- weitere Uebungen: 22.12.2022
