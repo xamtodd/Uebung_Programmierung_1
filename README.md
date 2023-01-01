@@ -8,6 +8,7 @@
 - Uebung 6: 30.11.2022
 - Uebung 7: 09.12.2022
 - Uebung 8: 15.12.2022
+- Weihnachtsaufgaben: 01.01.2023
 
 # Vorlesungsaufgaben
 
