@@ -10,6 +10,7 @@
 - Uebung 08: 15.12.2022
 - Weihnachtsaufgaben: 01.01.2023
 - Uebung 10: 12.01.2023
+- Uebung 11: 19.01.2023
 
 # Vorlesungsaufgaben
 
