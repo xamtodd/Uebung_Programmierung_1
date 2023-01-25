@@ -11,6 +11,7 @@
 - Weihnachtsaufgaben: 01.01.2023
 - Uebung 10: 12.01.2023
 - Uebung 11: 19.01.2023
+- Uebung 12: 25.01.2023
 
 # Vorlesungsaufgaben
 
