@@ -12,7 +12,7 @@ int ackermann(int n, int m){
 
 
 int main() {
-    printf("%d\n", ackermann(3, 4));
+    printf("%d\n", ackermann(0, 1));
     
     return 0;
 }
