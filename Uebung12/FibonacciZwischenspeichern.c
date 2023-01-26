@@ -15,7 +15,7 @@ int fibonacciZwischenspeichern (int n, int array[]){
 
 
 int main() {
-    int array[100];
+    int array[100] = {0};
     int n = 10;
     int res = fibonacciZwischenspeichern(n, array);
     printf("fib = %d\n", res);
